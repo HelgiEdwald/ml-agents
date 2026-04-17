@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1776439941",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\helgi\\miniconda3\\envs\\mlagents\\Scripts\\mlagents-learn config/MoveToGoal.yaml --initialize-from=TestParameters --run-id=MoveToGoal2",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1776440011"
+    },
+    "total": 69.56283949999488,
+    "count": 1,
+    "self": 0.011021899998013396,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09370519999356475,
+            "count": 1,
+            "self": 0.09370519999356475
+        },
+        "TrainerController.start_learning": {
+            "total": 69.4581124000033,
+            "count": 1,
+            "self": 9.62999984039925e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 69.45799900000566,
+                    "count": 1,
+                    "self": 69.45799900000566
+                },
+                "TrainerController._save_models": {
+                    "total": 1.7099999240599573e-05,
+                    "count": 1,
+                    "self": 1.7099999240599573e-05
+                }
+            }
+        }
+    }
+}
